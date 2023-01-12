@@ -6,11 +6,11 @@ import (
 )
 
 var (
-	a        = 4
-	b        = 6
+	a        = 1
+	b        = 2
 	n        = 10
 	function = func(x float64) float64 {
-		return math.Log(math.Pow(x, 3) + 2)
+		return math.Pow(math.E, 1/x)
 	}
 )
 
