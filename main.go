@@ -6,11 +6,11 @@ import (
 )
 
 var (
-	a        = 1
-	b        = 2
-	n        = 10
+	a        = 0
+	b        = 1
+	n        = 5
 	function = func(x float64) float64 {
-		return math.Pow(math.E, 1/x)
+		return math.Sin(.5 * math.Pow(x, 2))
 	}
 )
 
